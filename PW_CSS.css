@@ -115,6 +115,10 @@ h3{
     margin-right: auto;
 }
 
+.slides {
+    margin: 0 auto;
+    text-align: center; 
+}
 
 /* LINK STUFF */
 a{ 

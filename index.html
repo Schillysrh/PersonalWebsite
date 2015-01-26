@@ -5,6 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link type="text/css" rel= 'stylesheet' href='PW_CSS.css'/>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="sss/sss.min.js"></script>
+        <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+
+        <script>
+            jQuery(function($) {
+            $('.slider').sss();
+            });
+        </script>
+        
 		<title>Sarah Files</title>
 	</head>
 
@@ -41,7 +52,7 @@
         <div class="seethru">
             <p class="pg">
     <b>I am a senior in Computer Engineering at Iowa State University!</b><br><br>
-    Over the course of my college career, I've discovered I love to create and teach. Along with Computer Engineering, a Digital Media minor from the college of design lets me do that. I spent eight months on an internship making tutorials, and the Fall of 2014 I learned 3D modeling. I want to combine the two upon graduation.
+    Over the course of my college career, I've discovered I love to create and teach. Along with Computer Engineering, a Digital Media minor from the college of design lets me do that. I spent eight months on an internship making tutorials, and the Fall of 2014 I learned 3D modeling. I want to combine the two upon graduation. I also love programming for websites and hope to do that over the summer.
     <br> 
     <br> A little bit about me; I really dig reading, playing video games and the guitar. I also love to play soccer. If I'm not doing one of those things, I'm probably programming. The web-based languages are my favorite (HTML, CSS, Javascript and JQuery). My hopes and dreams include traveling abroad, getting a job after graduation and finally beating my little brother at Mario Kart. 
     <br>
@@ -68,16 +79,14 @@
                     </p>
     
                     <br>
-                    <p class = "pg">Below are examples of my work for the 3D Modeling course. The cat was modeled after a pink stapleless stapler. The other two are modeled after a Fender Stratocaster. The full guitar is a '59 Mary Kaye Strat.</p>
-                    <p>
-                        <img src = "img/Fender_Strat.png" alt = "Fender Strat w/ Amp" height = "600" width = "500" float = "left"/>
-                        <br><br>
-                        <img src = "img/Body_Pickguard.png" alt ="Fender Body" height = "400" width = "500" float = "left" />
-                        <br><br>
-                        <img src = "img/Stapler.png" alt ="Stapleless Cat Stapler" height = "300" width = "400" float = "left" />
-                        <br>
-                        <br>
-                    </p>
+                    <p class = "pg">Below are examples of my work for the 3D Modeling course.</p>
+                    <div class = "pg">
+                        <div class = "slider">
+                                <img src = "img/Fender_Strat.png" alt = "Fender Strat w/ Amp"/>
+                                <img src = "img/Body_Pickguard.png" alt ="Fender Body" />
+                                <img src = "img/Stapler.png" alt ="Stapleless Cat Stapler" />
+                        </div>         
+                    </div>
             </div>   
     <br><br>
     <h3>Computer Engineering</h3>
@@ -107,21 +116,25 @@
                  <p class="pg">
         In May of 2014, my little brother graduated from high school. In hand with my brand new DSLR camera and photoshop, I took and edited his senior photos. Below are a few examples of the final edits.</p>
                     <br>
-                    <p>
-                        <img src="img/Daniel_1.jpg" alt = "Daniel 1" height="300" width="238"/>
-                        <img src="img/Daniel_3.jpg" alt = "Daniel 2" height="238" width="300"/>
-                        <img src="img/Daniel_2.jpg" alt = "Daniel 3" height="300" width="238"/>
-                    </p>
+                    <div class = "pg">
+                    <div class="slider">
+                        <img src="img/Daniel_1.png" alt = "Daniel 1" />
+                        <img src="img/Daniel_3.png" alt = "Daniel 2" />
+                        <img src="img/Daniel_2.png" alt = "Daniel 3" />
+                    </div>
+                    </div>
                     <p class = "pg">
                         <br>
                         In the Spring of 2014, my beautiful sister got engaged! I was lucky enough to capture the moment. Below are a few of the pictures of the happy couple. <br> </p>
-                    <p>
                     <br>
-                        <img src="img/JC_3.jpg" alt ="Jenni and Chris 1" height="300" width="238"/>
-                        <img src="img/JC_2.jpg" alt ="Jenni and Chris 2" height="250" width="300"/>
-                        <img src="img/JC_1.jpg" alt ="Jenni and Chris 3" height="300" width="238"/>
-                        <br> 
-                    </p>
+                    <div class="pg">
+                    <div class="slider">
+                        <img src="img/JC_3.png" alt ="Jenni and Chris 1" height="300" width="238"/>
+                        <img src="img/JC_2.png" alt ="Jenni and Chris 2" height="250" width="300"/>
+                        <img src="img/JC_1.png" alt ="Jenni and Chris 3" height="300" width="238"/>
+                    </div>
+                    <br>
+                    </div>
             </div>
     
     <div id = "e1"></div>
@@ -151,10 +164,11 @@
     <div id = "c1"></div>
     <h2>Contact</h2>
         <div class="seethru">
+            <p class = "pg" style = "text-align: center" >To contact me you can<br>
+                <a href="mailto:srh.fls@gmail.com"><i>send me an email</i></a><br> or</p>
             <a href="SarahFiles_Resume.pdf"><i>Here's my resume!</i></a>
             <br>
             <a href="https://www.linkedin.com/pub/sarah-files/60/280/19a" target="_blank"><i>Or find me on LinkedIn!</i></a>
         </div>
-
     </body>
 </html>
