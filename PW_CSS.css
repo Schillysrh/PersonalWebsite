@@ -20,7 +20,7 @@ body {
 .break {
 	width: 100%;
 	height: 5px;
-    background-color: #89507B;
+    background-color: #5B7C8D;
 }
 
 nav {
@@ -63,18 +63,7 @@ img {
 }
 
 .bg{
-    width: 100%;
-    height: 100%;
-    
-    background: url("http://i.imgur.com/H5jiH82.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(img/swirl_pattern.png);
 }
 
 h1{
@@ -85,7 +74,7 @@ h1{
 
 h2{
     display: block;
-    background-color: #72c7c2;
+    background-color: #248F8D;
     width: 100%;
     text-align: center;
     padding-top: 10px;
@@ -97,7 +86,7 @@ h2{
 
 h3{
     display: block;
-    background-color: #89507B;
+    background-color: #61ADA0;
     width: 100%;
     height: auto; 
     text-align: center;
@@ -129,7 +118,7 @@ a{
 }
 
 a:hover {
-	color: #89507B;
+	color: #B2D5BA;
 }
 
 /* SEE THROUGH BACKGROUND PROPERTIES */
@@ -165,6 +154,7 @@ a:hover {
 		padding: 5px 0px;
 	}
 }
+
 /* Cell phones */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -220,43 +210,43 @@ a:hover {
     }
 }
 
-/* iPad */
+/* iPad
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
     .bg{
         background-size: cover;
         background-attachment: scroll;
     }
-}
+} */
 
-/* iPhone 6 */
+/* iPhone 6
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
     .bg{
         background-size: cover;
         background-attachment: scroll;
     }
-}
+} */
 
-/* iPhone 6+ */
+/* iPhone 6+
 @media only screen and (min-device-width : 540px) and (max-device-width : 960px) { 
     .bg{
         background-size: cover;
         background-attachment: scroll;
     }
-}
+}*/
 
-/* iPhone 5 and 5S */
+/* iPhone 5 and 5S 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
     .bg{
         background-size: cover;
         background-attachment: scroll;
     }
-}
+}*/
 
-/* iPhone 4 and under */
+/* iPhone 4 and under 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
     .bg{
         background-size: cover;
         background-attachment: scroll;
     }
 
-}
+}*/
